@@ -3025,6 +3025,10 @@
 						display: inline;
 					}
 
+					#header > .inner {
+						justify-content: center;
+					}
+
 		/* Footer */
 
 			#footer {
