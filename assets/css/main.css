@@ -1606,7 +1606,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #111;
 		font-family: "Montserrat",sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1634,8 +1634,8 @@
 		}
 
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		color: #111;
+		font-weight: bold;
 	}
 
 	em, i {
@@ -1647,10 +1647,14 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #8dbe55;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+	}
+
+	h3 {
+		margin: 0 !important;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
